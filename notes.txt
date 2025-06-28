@@ -1,0 +1,18 @@
+this is a "journal" for notes and progress
+generally do this for everything
+made this project to move from jekyll to astro because its better
+
+`npm run dev` to start dev server
+
+all stuff is found under /src
+
+bunch of stuff added like big (ai generated) image in the middle
+header that is sticky and changes color on scroll
+
+made theme, all pages converted from md/html to astro, etc.
+im not writing all this down
+
+`npm install papaparse` for csv parsing
+`npx astro add react` for react support
+
+finished calendar and honor roll stuff

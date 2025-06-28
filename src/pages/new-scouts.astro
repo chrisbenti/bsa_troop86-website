@@ -1,0 +1,55 @@
+---
+import Layout from '../components/Layout.astro';
+export const prerender = true;
+---
+
+<Layout title="New Scouts">
+  <div class="home-container">
+    <section class="main-content">
+      <h1>Welcome, New Scouts!</h1>
+      <p>
+        We welcome new scouts to BSA Troop 86 of Marlboro. A Scout is always prepared. Here is some information that will be helpful for you in the journey to Eagle Scout.
+      </p>
+      <ul class="modern-list">
+        <li>
+          <a href="/content/Scoutmaster's Welcome Letter.pdf" class="modern-link">Scoutmaster's Welcome Letter</a>
+        </li>
+        <li>
+          <a href="/content/TROOP 86 Social Media WS.pdf" class="modern-link">TROOP 86 Social Media Presence</a>
+        </li>
+        <li>
+          <a href="/content/Boy Scout Uniform-Where Do All the Patches Go.pdf" class="modern-link">Boy Scout Uniform – Where Do All the Patches Go</a>
+        </li>
+        <li>
+          <a href="/content/Personal Camping Gear.pdf" class="modern-link">Personal Camping Gear</a>
+        </li>
+      </ul>
+      <h2>Paperwork for Your First Meeting</h2>
+      <p>
+        Please complete the following paperwork and turn it in at your first meeting with your dues check payable to BSA Troop 86:
+      </p>
+      <ul class="modern-list">
+        <li>
+          <a href="/content/Scout Personal Data Collection.pdf" class="modern-link">Scout Personal Data Collection</a>
+        </li>
+        <li>
+          <a href="/content/troop_resource_survey.pdf" class="modern-link">Troop 86 Resource Survey</a>
+        </li>
+      </ul>
+    </section>
+    <aside class="modern-sidebar">
+      <div class="sidebar-section">
+        <h3>Questions?</h3>
+        <p>
+          Contact us at <a href="/contact" class="modern-link">our contact page</a> or ask a Scoutmaster at your first meeting!
+        </p>
+      </div>
+      <div class="sidebar-section">
+        <h3>Uniform Tip</h3>
+        <p>
+          Not sure where patches go? See the uniform guide above or ask a senior scout for help.
+        </p>
+      </div>
+    </aside>
+  </div>
+</Layout>

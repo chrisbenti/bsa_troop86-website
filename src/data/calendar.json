@@ -1,0 +1,180 @@
+[
+  {
+    "year": 2024,
+    "months": [
+      {
+        "month": "September",
+        "month_number": 9,
+        "start_day": 0,
+        "days": 30,
+        "events": [
+          { "day": "8", "event": "Marlboro Day" },
+          { "day": "9", "event": "First Meeting" },
+          { "day": "16", "event": "Regular Meeting" },
+          { "day": "23", "event": "Regular Meeting" },
+          { "day": "27-29", "event": "Shooting Trip" },
+          { "day": "29", "event": "PLC Meeting" },
+          { "day": "30", "event": "Regular/Parents Meetings" }
+        ]
+      },
+      {
+        "month": "October",
+        "month_number": 10,
+        "start_day": 2,
+        "days": 31,
+        "events": [
+          { "day": "5-6", "event": "Pack Campout" },
+          { "day": "7", "event": "Regular Meeting" },
+          { "day": "14", "event": "Regular Meeting" },
+          { "day": "21", "event": "Regular Meeting" },
+          { "day": "25-29", "event": "Hiking Trip" },
+          { "day": "28", "event": "Regular Meeting" }
+        ]
+      },
+      {
+        "month": "November",
+        "month_number": 11,
+        "start_day": 5,
+        "days": 30,
+        "events": [
+          { "day": "3", "event": "PLC" },
+          { "day": "3", "event": "Hymn Festival" },
+          { "day": "4", "event": "Court of Honor" },
+          { "day": "11", "event": "Regular Meeting" },
+          { "day": "15-17", "event": "Navy Football" },
+          { "day": "18", "event": "Regular Meeting" },
+          { "day": "25", "event": "Regular Meeting" }
+        ]
+      },
+      {
+        "month": "December",
+        "month_number": 12,
+        "start_day": 0,
+        "days": 31,
+        "events": [
+          { "day": "1", "event": "Multicultural Day" },
+          { "day": "2", "event": "Regular Meeting" },
+          { "day": "7", "event": "Church Decorating" },
+          { "day": "8", "event": "PLC" },
+          { "day": "9", "event": "Regular Meeting" },
+          { "day": "13-15", "event": "Boston Freedom Trail" },
+          { "day": "16", "event": "Holiday Party" },
+          { "day": "23", "event": "No Meeting" },
+          { "day": "30", "event": "No Meeting" }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "months": [
+      {
+        "month": "January",
+        "month_number": 1,
+        "start_day": 3,
+        "days": 31,
+        "events": [
+          { "day": "4", "event": "Church Undecorating" },
+          { "day": "5", "event": "PLC/Committee" },
+          { "day": "6", "event": "Regular Meeting" },
+          { "day": "11-12", "event": "Lock In" },
+          { "day": "13", "event": "Regular Meeting" },
+          { "day": "20", "event": "Regular Meeting" },
+          { "day": "24-26", "event": "Baltimore Aquarium" },
+          { "day": "27", "event": "Regular Meeting" }
+        ]
+      },
+      {
+        "month": "February",
+        "month_number": 2,
+        "start_day": 6,
+        "days": 28,
+        "events": [
+          { "day": "1", "event": "Klondike" },
+          { "day": "2", "event": "PLC" },
+          { "day": "3", "event": "Regular Meeting" },
+          { "day": "9", "event": "Scout Sunday" },
+          { "day": "10", "event": "Regular Meeting" },
+          { "day": "17", "event": "No Meeting" },
+          { "day": "21-23", "event": "Catamount Skiing" },
+          { "day": "24", "event": "Court of Honor" }
+        ]
+      },
+      {
+        "month": "March",
+        "month_number": 3,
+        "start_day": 6,
+        "days": 31,
+        "events": [
+          { "day": "2", "event": "PLC/Committee" },
+          { "day": "3", "event": "Regular Meeting" },
+          { "day": "10", "event": "Regular Meeting" },
+          { "day": "17", "event": "Regular/Parents Meeting" },
+          { "day": "24", "event": "Regular Meeting" },
+          { "day": "31", "event": "Regular Meeting" },
+          { "day": "28-29", "event": "Hunt Club (NJ)" }
+        ]
+      },
+      {
+        "month": "April",
+        "month_number": 4,
+        "start_day": 2,
+        "days": 30,
+        "events": [
+          { "day": "6", "event": "PLC" },
+          { "day": "7", "event": "Summer Camp/Regular Meeting" },
+          { "day": "14", "event": "No Meeting" },
+          { "day": "21", "event": "Regular Meeting" },
+          { "day": "25-27", "event": "Caving Trip" },
+          { "day": "28", "event": "Regular Meeting" }
+        ]
+      },
+      {
+        "month": "May",
+        "month_number": 5,
+        "start_day": 4,
+        "days": 31,
+        "events": [
+          { "day": "4", "event": "PLC/Committee" },
+          { "day": "5", "event": "Regular Meeting" },
+          { "day": "12", "event": "Regular Meeting" },
+          { "day": "16-18", "event": "Climbing Trip" },
+          { "day": "19", "event": "Regular Meeting" },
+          { "day": "24", "event": "Flag Placement" },
+          { "day": "26", "event": "Memorial Day Parade" }
+        ]
+      },
+      {
+        "month": "June",
+        "month_number": 6,
+        "start_day": 0,
+        "days": 30,
+        "events": [
+          { "day": "1", "event": "PLC" },
+          { "day": "2", "event": "Regular Meeting/ TMR Paper Work Due" },
+          { "day": "9", "event": "Summer Camp/Regular Meeting" },
+          { "day": "13-15", "event": "Historic Trip" },
+          { "day": "16", "event": "Court of Honor" }
+        ]
+      },
+      {
+        "month": "July",
+        "month_number": 7,
+        "start_day": 2,
+        "days": 31,
+        "events": [
+          { "day": "20-26", "event": "Summer Camp" }
+        ]
+      },
+      {
+        "month": "August",
+        "month_number": 8,
+        "start_day": 5,
+        "days": 31,
+        "events": [
+          { "day": "8", "event": "Troop Fishing Trip" }
+        ]
+      }
+    ]
+  }
+]

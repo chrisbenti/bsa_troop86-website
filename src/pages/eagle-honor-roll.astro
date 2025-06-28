@@ -1,0 +1,42 @@
+---
+import Layout from '../components/Layout.astro';
+import fs from 'fs';
+// @ts-ignore
+import Papa from 'papaparse';
+
+type HonorRollRow = {
+  Number: string;
+  Date: string;
+  Name: string;
+};
+
+const csv = fs.readFileSync('./src/data/honorRoll.csv', 'utf8');
+const { data } = Papa.parse<HonorRollRow>(csv, { header: true });
+export const prerender = true;
+---
+
+<Layout title="Eagle Honor Roll">
+  <div class="home-container">
+    <section class="main-content">
+      <h1>Eagle Honor Roll</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Date</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((row: HonorRollRow) => (
+            <tr>
+              <td>{row.Number}</td>
+              <td>{row.Date}</td>
+              <td>{row.Name}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</Layout>
