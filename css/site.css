@@ -1,0 +1,139 @@
+/* Sticky header */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 1px solid #ccc; */
+  background: inherit;
+}
+.sticky-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.sticky-nav a {
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.main-content {
+  flex: 3;
+}
+.sidebar {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 1rem;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+/* 3.1 Hero background & overlay text */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url('/img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.hero-overlay h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  pointer-events: auto;
+}
+.hero-overlay h2 {
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  margin: 0.5rem 0;
+  pointer-events: auto;
+}
+.hero-overlay h1 {
+  font-size: 5rem;
+}
+.hero-overlay h2 {
+  font-size: 2rem;
+}
+/* Centering text over images via Flexbox is a reliable pattern :contentReference[oaicite:3]{index=3} */
+
+/* 3.2 Sticky header transparent/opaque */
+#header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+#header.transparent {
+  background-color: transparent !important;
+}
+#header.opaque {
+  background: rgba(58, 58, 58, 0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#header.opaque .sticky-nav a {
+  color: #fff; /* or another color for opaque background */
+}
+#header.transparent .sticky-nav a {
+  color: #fff;
+}
+/* Toggling header transparency on scroll is standard JS+CSS :contentReference[oaicite:4]{index=4} */
+
+/* 3.3 Scroll-down arrow cue */
+.scroll-arrow {
+  position: absolute;
+  bottom: 2rem;
+  width: 24px; height: 24px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  transform: rotate(45deg);
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,20%,50%,80%,100% { transform: translateY(0) rotate(45deg); }
+  40% { transform: translateY(8px) rotate(45deg); }
+  60% { transform: translateY(4px) rotate(45deg); }
+}
+/* Basic arrow and bounce animation per UnusedCSS :contentReference[oaicite:5]{index=5} and CSS Animation tutorials :contentReference[oaicite:6]{index=6} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: -64px; /* puts image under header */
+}
